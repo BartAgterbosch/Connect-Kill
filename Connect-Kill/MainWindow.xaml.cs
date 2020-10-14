@@ -51,13 +51,7 @@ namespace ConnectKill
             }
 
             Ip_Con();
-//            if (ipCon)
-//            {
-//                runApp.Click += Run_Test;
-                runApp.Click += Run_App;
-//            }
-
-
+            runApp.Click += Run_App;
             ipBlock.Text = "Current ip: " + ipAddress;
 
             IpCheck.DoWork += IpCheck_DoWork;
